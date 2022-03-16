@@ -1,24 +1,96 @@
 
-
 body {
-  background-color: white;
+  background-color: #FDFAF6;
+  height: 100%;
+  overflow: hidden;
+}
+/* #eee7e1 ALTERNATIVE COLOR background*/
+
+.head1 {
+  text-align: center;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  font-size: 6.83rem;
+  color: black;
+  position: relative;
+  bottom: 60px;
 
 }
 
+.paragraph1 {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  bottom: 145px;
+  margin-left: 165px;
+  font-size: 1.0rem;
 
-h1 {
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-weight: 100;
-  font-size: 82pt;
-  color: black;
+}
+
+.paragraph2 {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 	1.166rem;
+  position: relative;
+  bottom: 160px;
+  margin-left: 165px;
+  line-height: 5%;
+  text-transform: uppercase;
+
+
+}
+.paragraph3{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    bottom:130px;
+
+
 }
 
 h3 {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 0.83rem;
   color: black;
+  position: relative;
+  bottom: 125px;
 }
 
 /* When hyperlink is clicked on the color will remain black */
-a, a:visited{
-     color: black;
+a, a:visited {
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: black;
+    text-decoration: none;
 }
+.boldtext{
+  font-weight: bold;
+}
+<<<<<<< HEAD
+.boldtext1{
+  font-weight: bold;
+}
+=======
+>>>>>>> cb4b25f015236f1eaec2897daffa649fd078b1c9
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 10px;
+      color:white;
+      background-color: grey;
+      text-align: right;
+      border-radius: 0;
+      padding: 0 0;
+      position:relative;
+      top: 0;
+      left:5px;
+      opacity: 0.7
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+
+
+    .isDisabled {
+      color: black;
+      cursor: not-allowed;
+
+      text-decoration: none;
+    }
