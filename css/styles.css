@@ -1,3 +1,4 @@
+
 body {
   background-color: #FDFAF6;
   height: 100%;
@@ -9,28 +10,25 @@ body {
   text-align: center;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 400;
-  font-size: 82pt;
+  font-size: 6.83rem;
   color: black;
   position: relative;
   bottom: 60px;
 
 }
 
-
-
-
 .paragraph1 {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
   position: relative;
   bottom: 145px;
   margin-left: 165px;
-  font-size: 12pt;
+  font-size: 1.0rem;
 
 }
 
 .paragraph2 {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 12pt;
+  font-size: 	1.166rem;
   position: relative;
   bottom: 160px;
   margin-left: 165px;
@@ -41,7 +39,7 @@ body {
 }
 .paragraph3{
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 9pt;
+    font-size: 0.75rem;
     position: relative;
     bottom:130px;
 
@@ -50,7 +48,7 @@ body {
 
 h3 {
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 10pt;
+  font-size: 0.83rem;
   color: black;
   position: relative;
   bottom: 125px;
@@ -65,3 +63,31 @@ a, a:visited {
 .boldtext{
   font-weight: bold;
 }
+.boldtext1{
+  font-weight: bold;
+}
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 10px;
+      color:white;
+      background-color: grey;
+      text-align: right;
+      border-radius: 0;
+      padding: 0 0;
+      position:relative;
+      top: 0;
+      left:5px;
+      opacity: 0.7
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+
+
+    .isDisabled {
+      color: black;
+      cursor: not-allowed;
+
+      text-decoration: none;
+    }
