@@ -63,9 +63,12 @@ a, a:visited {
 .boldtext{
   font-weight: bold;
 }
+<<<<<<< HEAD
 .boldtext1{
   font-weight: bold;
 }
+=======
+>>>>>>> cb4b25f015236f1eaec2897daffa649fd078b1c9
 
     .tooltip .tooltiptext {
       visibility: hidden;
